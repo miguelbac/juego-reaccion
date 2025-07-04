@@ -1,0 +1,31 @@
+.reaction-box {
+  padding: 4rem 2rem;
+  border-radius: 20px;
+  text-align: center;
+  cursor: pointer;
+  max-width: 400px;
+  margin: 2rem auto;
+  transition: background-color 0.3s ease;
+  color: #333;
+  font-size: 1.2rem;
+  user-select: none;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
+}
+
+.reaction-box.waiting {
+  background-color: #e0f7fa;
+}
+
+.reaction-box.ready {
+  background-color: #fff3e0;
+}
+
+.reaction-box.now {
+  background-color: #ffeb3b;
+}
+
+.reaction-time {
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-top: 1rem;
+}
